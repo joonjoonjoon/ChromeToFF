@@ -1,0 +1,1 @@
+fart -r -c -- "%AppData%\..\Local\Google\Chrome\User Data\Local State" excluded_schemes\":{\" excluded_schemes\":{\"ff:false,

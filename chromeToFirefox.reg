@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ff]
+@="URL:Firefox Protocol"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\ff\shell]
+@="open"
+[HKEY_CLASSES_ROOT\ff\shell\open]
+[HKEY_CLASSES_ROOT\ff\shell\open\command]
+@="\"C:\\Portable\\ChromeToFF\\chromeToFirefox.bat\" %1"
+
+
