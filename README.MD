@@ -20,14 +20,14 @@ Installation guide:
  3. set the last line to the correct directory (beware of double slashes //)
  4. open **chromeToFirefox.bat**
  5. make sure it points towards the correct location of Firefox
- 6. download and install *fart.exe*, put it in the same folder http://fart-it.sourceforge.net/
- 7. execute *registerCustomUriInChrome.bat*
- 8. execute *chromeToFirefox.reg*
+ 6. download and install **fart.exe**, put it in the same folder http://fart-it.sourceforge.net/
+ 7. execute **registerCustomUriInChrome.bat**
+ 8. execute **chromeToFirefox.reg**
 
 Done. Now test it
 copy this into chrome or IE: 
 ```
-	ff:http://joon.be
+ff:http://joon.be
 ```
 it should open in firefox now :)
 
@@ -38,6 +38,7 @@ Troubleshooting:
 
 	
 made by @joonturbo
+
 joon@joon.be
 
 
