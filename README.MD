@@ -13,9 +13,10 @@
 ```
 
 ----------------------------------------------------------------------------------
+
 Installation guide:
  1. place the ChromeToFF somewhere permanent on your disk
- 2. open *chromeToFirefox.reg*
+ 2. open _chromeToFirefox.reg_
  3. set the last line to the correct directory (beware of double slashes //)
  4. open *chromeToFirefox.bat*
  5. make sure it points towards the correct location of Firefox
@@ -24,14 +25,15 @@ Installation guide:
  8. execute *chromeToFirefox.reg*
 
 Done. Now test it
- 9. copy this into chrome or IE: 
-	
+copy this into chrome or IE: 
+```
 	ff:http://joon.be
+```
+it should open in firefox now :)
 
- 10. it should open in firefox now :)
 ------------------------------------------------------------------------------------
 Troubleshooting:
-- you can not use Fart, and instead manually go to "%AppData%\..\Local\Google\Chrome\User Data\Local State",  and add "ff:false," to the excluded_schemes
+- you can not use Fart, and instead manually go to `"%AppData%\..\Local\Google\Chrome\User Data\Local State"`,  and add `"ff:false,"` to the excluded_schemes
 
 
 	
