@@ -1,3 +1,4 @@
+```
  .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
 | |     ______   | || |    _____     | || |  _________   | || |  _________   | |
@@ -9,24 +10,25 @@
 | |              | || |              | || |              | || |              | |
 | '--------------' || '--------------' || '--------------' || '--------------' |
  '----------------'  '----------------'  '----------------'  '----------------' 
+```
 
 ----------------------------------------------------------------------------------
 Installation guide:
-1. place the ChromeToFF somewhere permanent on your disk
-2. open *chromeToFirefox.reg*
-3. set the last line to the correct directory (beware of double slashes //)
-4. open *chromeToFirefox.bat*
-5. make sure it points towards the correct location of Firefox
-6. download and install *fart.exe*, put it in the same folder http://fart-it.sourceforge.net/
-7. execute *registerCustomUriInChrome.bat*
-8. execute *chromeToFirefox.reg*
+ 1. place the ChromeToFF somewhere permanent on your disk
+ 2. open *chromeToFirefox.reg*
+ 3. set the last line to the correct directory (beware of double slashes //)
+ 4. open *chromeToFirefox.bat*
+ 5. make sure it points towards the correct location of Firefox
+ 6. download and install *fart.exe*, put it in the same folder http://fart-it.sourceforge.net/
+ 7. execute *registerCustomUriInChrome.bat*
+ 8. execute *chromeToFirefox.reg*
 
 Done. Now test it
-8. copy this into chrome or IE: 
+ 9. copy this into chrome or IE: 
 	
-	_ff:http://joon.be_
+	ff:http://joon.be
 
-9. it should open in firefox now :)
+ 10. it should open in firefox now :)
 ------------------------------------------------------------------------------------
 Troubleshooting:
 - you can not use Fart, and instead manually go to "%AppData%\..\Local\Google\Chrome\User Data\Local State",  and add "ff:false," to the excluded_schemes
