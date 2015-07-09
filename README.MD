@@ -16,9 +16,9 @@
 
 Installation guide:
  1. place the ChromeToFF somewhere permanent on your disk
- 2. open _chromeToFirefox.reg_
+ 2. open __chromeToFirefox.reg__
  3. set the last line to the correct directory (beware of double slashes //)
- 4. open *chromeToFirefox.bat*
+ 4. open **chromeToFirefox.bat**
  5. make sure it points towards the correct location of Firefox
  6. download and install *fart.exe*, put it in the same folder http://fart-it.sourceforge.net/
  7. execute *registerCustomUriInChrome.bat*
